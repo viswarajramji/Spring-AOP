@@ -20,7 +20,7 @@ Supports only run-time weaving.
 3. Pointcut: predicate expression.
 4. JoinPoint: details about method signature and arguments.
 
-##AOP - Advice Type 
+## AOP - Advice Type 
 
 * @Before : logic gets executed before method.
 * @AfterReturning : logic gets executed only after successful execution of the method.
