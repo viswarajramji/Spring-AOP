@@ -11,7 +11,7 @@ Uses proxy design pattern.
 
 Supports only run-time weaving.
 
-#####Note: In-case if your looking for more flexibility in using aspect use AspectJ. Spring AOP is a subset of AspectJ.
+##### Note: In-case if your looking for more flexibility in using aspect use AspectJ. Spring AOP is a subset of AspectJ.
 
 ## AOP Terms
 
@@ -28,7 +28,7 @@ Supports only run-time weaving.
 * @After: logic gets executed after completion of the method despited success or failure.
 * @Around: logic gets executed both during method start and end. However this type offers a handler to execute the actual method.
 
-##AOP - Enabling AOP.
+## AOP - Enabling AOP.
 
 * Include the following dependency as part of maven.
 
@@ -41,7 +41,7 @@ Supports only run-time weaving.
 
 * Provide Component Scan details for scanning the aspects Ex: @ComponentScan("com.spring.aop.examples")
 
-##AOP Pattern Syntax
+## AOP Pattern Syntax
 
 modifier(?) return-type fully-qualified-class-name(?) methodName ( method-arguments ) exception(?) 
 
